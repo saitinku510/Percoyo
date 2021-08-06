@@ -1,0 +1,50 @@
+.container{
+    width: 1500px;
+    margin: auto;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.header{
+    width: 100%;
+    float: left;
+    background-color: rgb(236 230 230 / 23%);
+    box-shadow: 0 2px 6px 0 rgb(0 0 0 / 12%), inset 0 -1px 0 0 #dadce0;
+}
+.img-fluid{
+    max-width: 100%;
+    width: 140px;
+    padding: 16px 22px;
+}
+.logo{
+    float: left;
+}
+.slider{
+    width: 50%;
+    float: left;
+}
+.form{
+    width: 50%;
+    float: left;
+    margin: 20px;
+}
+.form-control{
+    width: 88%;
+    border-radius: 5px;
+    padding: 8px;
+    box-sizing: border-box;
+    font-size: 13px;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+}
+.btn-style{
+    background-color: #f5233e;
+	color: white;
+	border: 1px solid #f5233e;
+	padding: 10px 30px;
+	font-size: 18px;
+    font-weight: bold;
+    border-radius: 5px;
+}
